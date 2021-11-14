@@ -18,8 +18,8 @@ public class NCBlockDoor extends BlockDoor {
 	public NCBlockDoor(Material material) {
 		super(material);
 		setHarvestLevel("pickaxe", 0);
-		setHardness(2F);
-		setResistance(15F);
+		setHardness(-1F);
+		setResistance(1000000F);
 	}
 	
 	@Override

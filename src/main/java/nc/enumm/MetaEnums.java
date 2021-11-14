@@ -75,7 +75,7 @@ public class MetaEnums {
 	}
 	
 	public static enum FissionBlockType implements IStringSerializable, IBlockMeta {
-		CASING("casing", 0, 0, "pickaxe", 2, 15, 0),
+		CASING("casing", 0, 0, "pickaxe", -1, 1000000, 0),
 		BLAST("blast", 1, 0, "pickaxe", 3, 3000, 0);
 		
 		private String name;

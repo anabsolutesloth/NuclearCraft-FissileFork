@@ -49,16 +49,16 @@ repositories {
 		url = "http://chickenbones.net/maven/"
 	}
 	maven {
-		name = "CyclopsMC"
-		url = "https://oss.jfrog.org/artifactory/simple/libs-release/"
-	}
-	maven {
 		name = "mcmoddev"
 		url = "https://maven.mcmoddev.com"
 	}
 	maven {
 		name = "ModMaven"
 		url = "https://modmaven.k-4u.nl"
+	}
+	maven {
+		name = "cursemaven"
+		url "https://cursemaven.com/"
 	}
 }
 
@@ -98,8 +98,10 @@ dependencies {
 	deobfCompile "gregtechce:gregtech:${gregtech_version}"
 	deobfCompile "mekanism:Mekanism:${mekanism_version}"
 	deobfCompile "projecte:ProjectE:${projecte_version}"
-	deobfCompile "org.cyclops.commoncapabilities:CommonCapabilities:${mc_version}-${common_capabilities_version}"
+	deobfCompile "curse.maven:commoncapabilities_${mc_version}-${common_capabilities_version_fid}"
+	deobfCompile "curse.maven:cyclopscore_${mc_version}-${cyclopscore_version_fid}"
 	deobfCompile "net.darkhax.gamestages:GameStages-${mc_version}:${gamestages_version}"
+	deobfCompile "net.darkhax.bookshelf:Bookshelf-${mc_version}:${bookshelf_version}"
 }
 
 processResources {

@@ -17,6 +17,8 @@ public class BlockFissionPort extends BlockSimpleSidedDummy {
 	
 	public BlockFissionPort(SimpleTileType type) {
 		super(type);
+		setHardness(-1F);
+		setResistance(1000000F);
 		canCreatureSpawn = false;
 	}
 	

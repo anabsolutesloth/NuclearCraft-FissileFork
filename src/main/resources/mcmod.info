@@ -1,7 +1,7 @@
 [{
 	"modid": "nuclearcraft",
 	"name": "NuclearCraft",
-	"description": "Nuclear Physics, Minecraft Style",
+	"description": "Fork of NuclearCraft for the Fissile modpack. All credits for the mod go to the NuclearCraft development team.",
 	"version": "${version}",
 	"mcversion": "${mcversion}",
 	"url": "https://minecraft.curseforge.com/projects/nuclearcraft-mod",

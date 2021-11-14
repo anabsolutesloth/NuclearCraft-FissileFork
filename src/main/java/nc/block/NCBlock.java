@@ -81,8 +81,8 @@ public class NCBlock extends Block {
 		
 		public Transparent(Material material, boolean smartRender) {
 			super(material);
-			setHardness(1.5F);
-			setResistance(10F);
+			setHardness(-1F);
+			setResistance(1000000F);
 			this.smartRender = smartRender;
 			canCreatureSpawn = false;
 		}

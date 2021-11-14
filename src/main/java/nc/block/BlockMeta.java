@@ -111,6 +111,8 @@ public abstract class BlockMeta<T extends Enum<T> & IStringSerializable & IBlock
 		public BlockFission() {
 			super(MetaEnums.FissionBlockType.class, TYPE, Material.IRON);
 			setCreativeTab(NCTabs.FISSION_BLOCKS);
+			setHardness(-1F);
+			setResistance(1000000F);
 			canCreatureSpawn = false;
 		}
 		
